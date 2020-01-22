@@ -542,8 +542,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Rubik', sans-serif;
@@ -1663,4 +1663,25 @@ section.lazy-placeholder:after {
   .cid-rOc8uWwcNz .price-figure {
     font-size: 4.25rem;
   }
+}
+.cid-rOiqjTSxII {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rOiqjTSxII .title {
+  margin-bottom: 2rem;
+}
+.cid-rOiqjTSxII .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rOiqjTSxII a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-rOiqjTSxII a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-rOiqjTSxII textarea.form-control {
+  min-height: 188px;
 }
