@@ -1,0 +1,26 @@
+img {
+	
+  width: 100%;
+  height: auto;
+}
+
+p {
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 50px;
+	font-weight: 500;
+	margin: 1.66%
+	border-bottom: 2px solid black;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+div {
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;
+}
